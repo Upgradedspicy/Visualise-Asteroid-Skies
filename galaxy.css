@@ -1,0 +1,275 @@
+
+.trackMercury {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  margin: -62.5px 0 0 -62.5px;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  -webkit-transition: all 0.6s;
+          transition: all 0.6s;
+  -webkit-animation: rotate360 14.4s linear infinite;
+          animation: rotate360 14.4s linear infinite;
+  z-index: 8;
+}
+.trackMercury:hover {
+  border: 1px solid #ED8020;
+}
+
+.trackVenus {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  margin: -78.125px 0 0 -78.125px;
+  width: 156.25px;
+  height: 156.25px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  -webkit-transition: all 0.6s;
+          transition: all 0.6s;
+  -webkit-animation: rotate360 37.2s linear infinite;
+          animation: rotate360 37.2s linear infinite;
+  z-index: 7;
+}
+.trackVenus:hover {
+  border: 1px solid #ED8020;
+}
+
+.trackEarth {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  margin: -98.75px 0 0 -98.75px;
+  width: 197.5px;
+  height: 197.5px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  -webkit-transition: all 0.6s;
+          transition: all 0.6s;
+  -webkit-animation: rotate360 60s linear infinite;
+          animation: rotate360 60s linear infinite;
+  z-index: 6;
+}
+.trackEarth:hover {
+  border: 1px solid #ED8020;
+}
+
+.trackMars {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  margin: -118.75px 0 0 -118.75px;
+  width: 237.5px;
+  height: 237.5px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  -webkit-transition: all 0.6s;
+          transition: all 0.6s;
+  -webkit-animation: rotate360 112.8s linear infinite;
+          animation: rotate360 112.8s linear infinite;
+  z-index: 5;
+}
+.trackMars:hover {
+  border: 1px solid #ED8020;
+}
+
+.trackJupiter {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  margin: -171.875px 0 0 -171.875px;
+  width: 343.75px;
+  height: 343.75px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  -webkit-transition: all 0.6s;
+          transition: all 0.6s;
+  -webkit-animation: rotate360 711.6s linear infinite;
+          animation: rotate360 711.6s linear infinite;
+  z-index: 4;
+}
+.trackJupiter:hover {
+  border: 1px solid #ED8020;
+}
+
+.trackSaturn {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  margin: -256.25px 0 0 -256.25px;
+  width: 512.5px;
+  height: 512.5px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  -webkit-transition: all 0.6s;
+          transition: all 0.6s;
+  -webkit-animation: rotate360 1767.6s linear infinite;
+          animation: rotate360 1767.6s linear infinite;
+  z-index: 3;
+}
+.trackSaturn:hover {
+  border: 1px solid #ED8020;
+}
+
+.trackUranus {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  margin: -318.75px 0 0 -318.75px;
+  width: 637.5px;
+  height: 637.5px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  -webkit-transition: all 0.6s;
+          transition: all 0.6s;
+  -webkit-animation: rotate360 5040.6s linear infinite;
+          animation: rotate360 5040.6s linear infinite;
+  z-index: 2;
+}
+.trackUranus:hover {
+  border: 1px solid #ED8020;
+}
+
+.trackNeptune {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  margin: -362.5px 0 0 -362.5px;
+  width: 725px;
+  height: 725px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  -webkit-transition: all 0.6s;
+          transition: all 0.6s;
+  -webkit-animation: rotate360 9888s linear infinite;
+          animation: rotate360 9888s linear infinite;
+  z-index: 1;
+}
+.trackNeptune:hover {
+  border: 1px solid #ED8020;
+}
+
+.sun {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  margin: -30px 0 0 -30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #FFFA2A;
+  box-shadow: 0 0 20px 12px #ED8020;
+}
+
+.mercury {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -3px 0 0 -3px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #AC7B45;
+}
+
+.venus {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -5px 0 0 -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #C27920;
+}
+
+.earth {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -6px 0 0 -6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #4D5467;
+}
+
+.mars {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -4px 0 0 -4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #d66523;
+}
+
+.jupiter {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -22.5px 0 0 -22.5px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #DFAA80;
+}
+
+.saturn {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -20px 0 0 -20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e6d48b;
+}
+
+.uranus {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -15px 0 0 -15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #82bdcb;
+}
+
+.neptune {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -14px 0 0 -14px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #5b7dad;
+}
+
+@-webkit-keyframes rotate360 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate360 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
